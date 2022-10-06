@@ -1,0 +1,57 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+header {
+    color: white;
+    font-size: 3.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header:hover {
+    color: black;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+    margin: 5px auto;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5em;
+}
+
+p1 {
+    display: block;
+    text-align: left;
+    font-size: 1.5em;
+    width: 700px;
+    margin: 5px auto;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+.quote {
+    color: white;
+    font-size: 2.5em;
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+p {
+    color: black;
+    width: 525px;
+}

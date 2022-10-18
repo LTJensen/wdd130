@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+
+.background {
+    background-color: gray;
+    z-index: -1;
+}
+
+h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 150px;
+    z-index: 1;
+    align-self: center;
+}
+
+img {
+    background-color: white;
+    z-index: -1;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+h2 {
+    color: red;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+    font-size: 100px;
+}
+

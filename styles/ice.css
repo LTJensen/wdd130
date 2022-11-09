@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#image {
+    width: 100%;
+    grid-column: 1/4;
+    margin: 0;
+    padding: 0;
+    grid-row: 1/2;
+}
+
+main {
+    margin: 50px;
+    width: 25%;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.article {
+    padding: 5px;
+    width: 75%;
+    justify-self: center;
+    margin: auto;
+}
+
+#footer {
+    grid-row: 4/5;
+    display: block;
+}
+
+.read {
+    grid-column: 1/2;
+}
+
+.views {
+    grid-column: 2/3;
+}
+
+.comments {
+    grid-column: 3/4;
+}
+
+* {
+    border-radius: 5px;
+    border-color: solid steelblue;
+    border-style: solid;
+}

@@ -279,13 +279,26 @@ footer .social img {
     align-items: center;
 }
 
+#kid-img {
+    box-shadow: 5px 5px 10px gray;
+}
+
 #lunch {
     grid-row: 3/4;
     align-items: center;
 }
 
+#lunch-img {
+    width: 50%;
+    box-shadow: 5px 5px 10px gray;
+}
+
 #love {
     grid-row: 5/6;
+}
+
+#love-img {
+    box-shadow: 5px 5px 10px gray;
 }
 
 .right {
@@ -300,16 +313,25 @@ footer .social img {
     grid-row: 2/3;
 }
 
+#safety-img {
+    box-shadow: -5px 5px 10px gray;
+}
+
 #carry {
     grid-row: 4/5;
 }
 
 #long-img {
     width: 18%;
+    box-shadow: -5px 5px 10px gray;
 }
 
 #booking {
     grid-row: 6/7;
+}
+
+#booking-img {
+    box-shadow: -5px 5px 10px gray;
 }
 
 
